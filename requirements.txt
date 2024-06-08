@@ -1,3 +1,5 @@
+fastapi
+uvicorn
 keras_nightly
 tensorflow
 numpy
