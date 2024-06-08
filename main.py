@@ -12,7 +12,6 @@ from fastapi.middleware.cors import CORSMiddleware
 
 nltk.download('punkt')
 nltk.download('wordnet')
-const port = process.env.PORT || 4000;
 lemmatizer = WordNetLemmatizer()
 
 app = FastAPI()
@@ -70,9 +69,9 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["*"],
 )
-@app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
+@app.get("/")
+async def read_root():
+    return ({"message" : "Hello World"})
 
 @app.post("/chatbot")
 async def chatbot(msg: Message):
