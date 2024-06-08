@@ -1,0 +1,120 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Xin chào",
+            ".",
+            "Chào shop",
+            "Này",
+            "Hi",
+            "Xin chào",
+            "Hello",
+            "Alo"
+         ],
+         "responses":[
+            "Xin chào, Shop có thể giúp gì cho bạn?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Hẹn gặp lại",
+            "Tạm biệt",
+            "Bye",
+            "Rất vui được trò chuyện với bạn, tạm biệt"
+         ],
+         "responses":[
+            "Tạm biệt! Cảm ơn bạn hẹn gặp lại."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"khuyenmai",
+         "patterns":[
+            "khuyến mãi"
+         ],
+         "responses":[
+            "Có rất nhiều khuyến mãi hấp dẫn"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Cảm ơn",
+            "Cảm ơn shop ạ",
+            "Tuyệt vời, cảm ơn",
+            "Cảm ơn vì đã giúp tôi"
+         ],
+         "responses":[
+            "Cảm ơn bạn! Hẹn sớm gặp lại bạn"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Xin vui lòng cho tôi thêm thông tin"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "Shop có thể giúp gì?",
+            "Bạn có thể giúp tôi cái gì?",
+            "Hỗ trợ gì được cung cấp"
+         ],
+         "responses":[
+            "Tôi có thể giúp bạn tư vấn và giới thiệu các sản phẩm mà shop có ạ!"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"product",
+         "patterns":[
+            "Sản phẩm bán nhiều nhất của shop?"
+         ],
+         "responses":[
+            "Bạn có thể tham khảo Túi xách nhỏ top handle trang trí logo Border, kết hợp đường dập nổi tạo điểm nhấn. Túi thiết kế dáng nhỏ gọn, đủ cho bạn để những vật dụng cần thiết."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"product",
+         "patterns":[
+            "Giới thiệu cho tôi một số sản phẩm hot của bên mình",
+            "Các sản phẩm hottrend",
+            "Các sản phẩm bán nhiều nhất",
+            "Các mẫu túi bán nhiều",
+            "Các mẫu túi đẹp"
+         ],
+         "responses":[
+            "Sau đây là một số sản phẩm shop gợi ý cho bạn: /n Túi Haspas /n Túi Juno /n Túi Gucci"
+         ],
+         "context":[
+            ""
+         ]
+      }
+   ]
+}
